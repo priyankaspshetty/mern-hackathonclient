@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.premium-section {
+  padding: 60px 30px;
+  background-color: #fdfdfd;
+  text-align: center;
+  font-family: sans-serif;
+  border-top: 1px solid #ccc;
+}
+
+.premium-section h2 {
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+.premium-section p {
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.premium-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #e6f2ff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+

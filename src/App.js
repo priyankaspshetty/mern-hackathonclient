@@ -1,29 +1,32 @@
+// src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Login from './components/Login';
-import PremiumForm from './components/PremiumForm';
-import AdminDashboard from './components/AdminDashboard';
 
-<Router>
-  <Routes>
-    {/* other routes */}
-    <Route path="/admin" element={<AdminDashboard />} />
-  </Routes>
-</Router>
-
-
-
+import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
+import HealthTopics from './components/HealthTopics';
+import DietPlanner from './components/DietPlanner';
+import PremiumForm from './components/PremiumForm'; // ✅ your calculator
 
 function App() {
   return (
     <Router>
+      <Navbar />
       <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/form" element={<PremiumForm />} />
-        <Route path="/admin" element={<AdminDashboard />} />
+        <Route
+          path="/"
+          element={
+            <>
+              <HeroSection />
+              <HealthTopics />
+              <DietPlanner />
+            </>
+          }
+        />
+        <Route path="/premium" element={<PremiumForm />} />
       </Routes>
     </Router>
   );
 }
 
-export default App; // ✅ This is required
+export default App;

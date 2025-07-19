@@ -1,0 +1,51 @@
+.health-topics {
+  padding: 40px 30px;
+  background-color: #fff;
+  font-family: sans-serif;
+}
+
+.health-topics h2 {
+  text-align: left;
+  color: #004080;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #f7f9fc;
+  border: 1px solid #ccc;
+  padding: 20px;
+  flex: 1 1 30%;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #333;
+  font-size: 0.95em;
+  margin-bottom: 15px;
+}
+
+.card button {
+  background-color: #004080;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #002f66;
+}

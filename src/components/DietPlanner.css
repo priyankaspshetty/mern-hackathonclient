@@ -1,0 +1,74 @@
+.diet-planner {
+  padding: 40px 30px;
+  background-color: #e6f2ff;
+  font-family: sans-serif;
+  border-top: 1px solid #ccc;
+}
+
+.diet-planner h2 {
+  color: #004080;
+  margin-bottom: 20px;
+}
+
+.diet-planner div {
+  margin-bottom: 15px;
+}
+
+.diet-planner label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.diet-planner input,
+.diet-planner select {
+  padding: 8px;
+  width: 100%;
+  max-width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.bmi-slider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bmi-slider input[type='range'] {
+  flex: 1;
+}
+
+.bmi-slider span {
+  font-weight: bold;
+  color: #004080;
+}
+
+.diet-planner button {
+  background-color: #004080;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.diet-planner button:hover {
+  background-color: #002f66;
+}
+
+.primary-btn {
+  padding: 12px 20px;
+  background-color: #004080;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.primary-btn:hover {
+  background-color: #002f5f;
+}
+
