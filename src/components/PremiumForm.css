@@ -1,0 +1,83 @@
+/* src/components/PremiumForm.css */
+.premium-form-container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.premium-form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.premium-form-container form input,
+.premium-form-container form select {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.addon-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.premium-result-card {
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px dashed #007bff;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #eaf4ff;
+  font-size: 20px;
+}
+
+.premium-result-card h3 {
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.recommendations-section {
+  margin-top: 20px;
+  background-color: #f0f9ff;
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 4px solid #007bff;
+}
+
+.recommendations-section h4 {
+  margin-bottom: 10px;
+}
+
+.recommendations-section ul {
+  padding-left: 20px;
+}
+
+.premium-recommendations {
+  margin-top: 20px;
+  padding: 10px;
+  border-left: 4px solid #007BFF;
+  background-color: #f5f9ff;
+}
+.premium-recommendations ul {
+  padding-left: 20px;
+}
+
+
